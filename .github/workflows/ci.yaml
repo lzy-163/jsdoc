@@ -58,5 +58,5 @@ jobs:
       - name: Test
         run: |
           npm install
-          npx lerna bootstrap
+          npx lerna@6 bootstrap
           npm run test
